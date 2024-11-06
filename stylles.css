@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------Responsive Images-----------*/
+img{
+    width: 100%;
+ }
+
+
+
+ /*------Tablet Media Query--------------*/
+ @media screen and (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+ }
+ /*----End of Tablet Media Query--------*/
+ /*-------Desktop Media Query-----------*/
+@media screen and (min-width:1125px) {
+
+    .header {
+        flex-direction:row;
+        justify-content:space-between;
+    }
+}
+ /*-----End Desktop Media Query--------*/
+ /*-----Large Screen Media Query-------*/
+ @media screen and (min-width:1850px) {
+
+    .header {
+        flex-direction:row;
+        justify-content:space-between;
+
+    }
+}    
+/*----End Large Screen Media Query----*/
